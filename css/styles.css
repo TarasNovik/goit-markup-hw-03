@@ -33,7 +33,8 @@ border:1px solid #2E2F42;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    color: #2e2f42;}
+    color: #2e2f42;
+border: 1px solid #2E2F42;}
 
 .social-links .link:hover,
 .social-links .link:focus {
@@ -45,7 +46,8 @@ border:1px solid #2E2F42;}
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+border: 1px solid #2E2F42;}
 
 .address-links .link:hover, 
 .address-links .link:focus{color: #404BBF;}
@@ -56,7 +58,8 @@ border:1px solid #2E2F42;}
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 1.12px;}
+    letter-spacing: 1.12px;
+border: 1px solid #2E2F42;}
 
 .button{ color: #FFF;
         font-size: 16px;
@@ -76,13 +79,15 @@ border:1px solid #2E2F42;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;}
+    color: #2e2f42;
+border: 1px solid #2E2F42;}
 
 .advantages-text{color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+border: 1px solid #2E2F42;}
 
 .section-team{ background-color: #F4F4FD}
 .team-title{text-align: center;
@@ -91,8 +96,10 @@ border:1px solid #2E2F42;}
     line-height: 1.11;
     letter-spacing:0.02em;
     text-transform: capitalize;
-    color:#2e2f42 ;}
-.team-card{background-color: #FFFFFF;}
+    color:#2e2f42 ;
+border: 1px solid #2E2F42;}
+.team-card{background-color: #FFFFFF;
+border: 1px solid #2E2F42;}
 
 .section-portfolio{background-color: #F4F4FD}
 .portfolio-title{text-align: center;
@@ -101,16 +108,19 @@ border:1px solid #2E2F42;}
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;}
+    color: #2e2f42;
+    border: 1px solid #2E2F42;}
 
    .portfolio-text{
         color: #434455;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+border: 1px solid #2E2F42; }
 
-.footer{background-color: #2e2f42;}
+.footer{background-color: #2e2f42;
+border: 1px solid #2E2F42;}
 .logo-web-footer {
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
@@ -118,7 +128,8 @@ border:1px solid #2E2F42;}
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    line-height: 1.17;}
+    line-height: 1.17;
+border: 1px solid #2E2F42;}
 
 .logo-studio-footer {
     color: #f4f4fd;
@@ -127,10 +138,12 @@ border:1px solid #2E2F42;}
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    line-height: 1.17;}
+    line-height: 1.17;
+border: 1px solid #2E2F42;}
 
 .text-footer{color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
-    font-weight: 400;}
+    font-weight: 400;
+border: 1px solid #2E2F42;}

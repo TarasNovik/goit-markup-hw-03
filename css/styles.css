@@ -3,7 +3,8 @@ body{
    font-family: Roboto,sans-serif;
    color: #434455;
    font-style: normal;}
-
+.section{margin-top: 50px;
+margin-bottom: 50px;}
 ul{list-style-type: none;}
 a{text-decoration: none;}
 h1,h2,h3,p{margin-top: 0;
@@ -129,7 +130,7 @@ border: 1px solid #2E2F42;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
-border: 1px solid #2E2F42;}
+border: 1px solid #f7f7f8;}
 
 .logo-studio-footer {
     color: #f4f4fd;
@@ -139,11 +140,11 @@ border: 1px solid #2E2F42;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
-border: 1px solid #2E2F42;}
+border: 1px solid #f8f8fa;}
 
 .text-footer{color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-size: 16px;
     font-weight: 400;
-border: 1px solid #2E2F42;}
+border: 1px solid #f9f9fa;}

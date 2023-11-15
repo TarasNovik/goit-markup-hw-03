@@ -3,7 +3,8 @@ body{ width: 1440px;
    font-family: Roboto,sans-serif;
    color: #434455;
    font-style: normal;
-box-sizing: border-box;}
+box-sizing: border-box;
+border: 1px solid rgb(224, 21, 11);}
 
 section{margin-top: 50px;
 margin-bottom: 50px;}
@@ -29,6 +30,11 @@ img{display: block;}
     margin-right: 0;
 }
 /* header */
+.conteiner-header{display: inline-flex;
+    align-items: center;
+padding-top: 24PX;
+padding-bottom: 24PX;
+margin-bottom: 0;}
 .logo-web {
     color:#4d5ae5;
     font-family: Raleway,sans-serif;
@@ -55,13 +61,17 @@ border:1px solid #2E2F42;}
     font-style: normal;
     color: #2e2f42;
 border: 1px solid #2E2F42;}
-
+.social-links{display: inline-flex;
+align-items: flex-start;
+gap: 40px;}
 .social-links .link:hover,
 .social-links .link:focus {
     color: #404BBF;}
 
-.address-links{font-style: normal;}
-   
+
+ .address-box{display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;}
 .address-links .link {color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -91,7 +101,9 @@ border: 1px solid #f1f2f5;}
         background-color:#4D5AE5;}
 .button:hover,.button:focus{
     background-color: #404BBF;}
-.advantages-kont{ display: flex;}
+.advantages-kont{ display: flex;
+    justify-content: space-evenly;}
+
  .advantages{color: #9b1717;}
 .advantages-title{text-align: center;
     font-size: 20px;

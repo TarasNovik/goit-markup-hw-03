@@ -88,7 +88,9 @@ img{display: block;}
 
 .address-links .link:hover, 
 .address-links .link:focus{color: #404BBF;}
-
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;}
 .conteiner-hero{ 
     background-color: #2E2F42;
     flex-direction: column;
@@ -97,7 +99,7 @@ img{display: block;}
     padding-left: 472px;
     padding-top: 188px;
     padding-right: 472px;
-    padding-bottom: 188px;
+    padding-bottom: 188px ;
     margin-top: 0;
    }
 .hero{width: 500px;
@@ -129,7 +131,8 @@ img{display: block;}
     justify-content: space-evenly;
     gap: 24px;
     width: 1128px; 
-    margin: 156px 120px ;}
+    margin-left: 156px;
+    margin-right: 156px;}
  
 .advantages-title{align-items: flex-start;
     font-size: 20px;
@@ -147,11 +150,11 @@ img{display: block;}
     align-items: flex-start;
 }
 /* TEAM */
-.section-team{ background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    height: 732px;
-    flex-shrink: 0;}
+.section-team{ background: var(--CLOUD, #F4F4FD);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  }
+    
  .card-content{display: flex;
     width: 232px;
     flex-direction: column;  
@@ -180,9 +183,9 @@ img{display: block;}
     gap: 32px;}
 
 .conteiner-portfolio {
-    background-color: #F4F4FD;
+    background-color: #FFF;
     flex-shrink: 0;
-    padding: 156px 120px;}
+   }
 .portfolio-cont {
     display: flex;
     flex-wrap: wrap;
@@ -202,17 +205,18 @@ img{display: block;}
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
     flex-shrink: 0;
-    border: 1px solid  #E7E9FC;
-    background: #FFF;
+    background: #FFF;   
 }
 .portfolio-card-content{display: flex;
-    padding: 0px 16px;
+    padding: 32px 16px;
     flex-direction: column;    
     align-items: flex-start;
     gap: 8px;
-    align-self: stretch;}
+    align-self: stretch;
+    border: 1px solid #F4F4FD;
+   
+}
 .portfolio-title-card{text-align: center;
     font-size:20px;
     font-weight: 500;
@@ -229,7 +233,7 @@ img{display: block;}
     letter-spacing: 0.02em;
     text-align: center;
  }
-
+/* footer */
 .footer{background-color: #2e2f42; 
     flex-shrink: 0;
     padding-left: 156px;

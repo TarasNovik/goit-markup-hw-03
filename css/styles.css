@@ -4,7 +4,7 @@ body{ width: 1440px;
    color: #434455;
    font-style: normal;
 box-sizing: border-box;
-border: 1px solid rgb(224, 21, 11);}
+margin: 0 auto;}
 
 section{margin-top: 0;
 margin-bottom: 0px;}

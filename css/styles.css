@@ -31,9 +31,9 @@ img{display: block;}
 }
 /* header */
 .conteiner-header{
-    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-        background: var(--WHITE, #FFF);
-    width: 1440px;
+    border-bottom: 1px solid  #E7E9FC;
+        background: #FFF;
+        width: 1440px;
     height: 72px;
     flex-shrink: 0;
     display: inline-flex;
@@ -83,52 +83,78 @@ gap: 40px;}
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .address-links .link:hover, 
 .address-links .link:focus{color: #404BBF;}
 
-.section-hero{ background-color: #2E2F42 ;}
-.hero{color: #ffffff;
-    text-align: center;
+.conteiner-hero{ background-color: #2E2F42;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+display: flex;
+    height: 600px;
+    padding-left: 472px;
+    padding-top: 188px;
+    padding-right: 472px;
+    padding-bottom: 188px;
+    margin-top: 0;
+   }
+.hero{width: 500px;
+    height: 120px;
+    color: #ffffff;   
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-border: 1px solid #f1f2f5;}
+    text-align: center;
+}
 
-.button{ color: #FFF;
+.button{display: inline-flex;
+    padding: 16px 32px;    
+    border-radius: 4px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+     color: #FFF;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
         font-family: Roboto, sans-serif;
-        background-color:#4D5AE5;}
+        background-color:#4D5AE5;
+    margin-top: 48px;}
 .button:hover,.button:focus{
     background-color: #404BBF;}
+
 .advantages-kont{ display: flex;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+    gap: 24px;
+width: 1128px;
+height: 104px;
+margin: 156px 120px ;}
 
  .advantages{color: #9b1717;}
-.advantages-title{text-align: center;
+ 
+.advantages-title{align-items: flex-start;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-border: 1px solid #2E2F42;}
-
+}
 .advantages-text{color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-border: 1px solid #2E2F42;
-text-align: center;}
+align-items: flex-start;
+}
 
-.section-team{ background-color: #F4F4FD}
+.section-team{ background-color: #F4F4FD;
+border: 1px solid rgb(29, 224, 11);}
 .team-title{text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -136,11 +162,11 @@ text-align: center;}
     letter-spacing:0.02em;
     text-transform: capitalize;
     color:#2e2f42 ;
-border: 1px solid #2E2F42;}
+}
 .team-cont{display: flex;
 justify-content: space-evenly;}
 .team-card{background-color: #FFFFFF;
-border: 1px solid #2E2F42;}
+}
 
 .section-portfolio{background-color: #F4F4FD}
 .portfolio-title{text-align: center;
@@ -150,9 +176,9 @@ border: 1px solid #2E2F42;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    border: 1px solid #2E2F42;}
-.portfolio-cont{display: inline-flex;
-    flex-direction: column;
+   }
+.portfolio-cont{display: flex;
+flex-wrap: wrap;
     gap: 18px;
     justify-content: space-evenly;
 }
@@ -164,7 +190,7 @@ border: 1px solid #2E2F42;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
-border: 1px solid #2E2F42; }
+ }
 
 .footer{background-color: #2e2f42;
 border: 1px solid #2E2F42;}

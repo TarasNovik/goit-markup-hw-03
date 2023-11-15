@@ -23,7 +23,7 @@ margin-left: 0;}
 img{display: block;}
 
 .conteiner{
-    max-width: 1440px;
+     max-width:1440px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -33,12 +33,11 @@ img{display: block;}
 .conteiner-header{
     border-bottom: 1px solid  #E7E9FC;
         background: #FFF;
-        width: 1440px;
-    height: 72px;
+    width: 1440px; 
     flex-shrink: 0;
     display: inline-flex;
     justify-content: space-between;
-padding: 24PX 156px;
+    padding: 24PX 156px;
 
 margin-bottom: 0;}
 .logo-web {
@@ -89,12 +88,12 @@ gap: 40px;}
 .address-links .link:hover, 
 .address-links .link:focus{color: #404BBF;}
 
-.conteiner-hero{ background-color: #2E2F42;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-display: flex;
-    height: 600px;
+.conteiner-hero{ 
+    background-color: #2E2F42;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;   
     padding-left: 472px;
     padding-top: 188px;
     padding-right: 472px;
@@ -102,7 +101,6 @@ display: flex;
     margin-top: 0;
    }
 .hero{width: 500px;
-    height: 120px;
     color: #ffffff;   
     font-size: 56px;
     font-weight: 700;
@@ -114,16 +112,15 @@ display: flex;
 .button{display: inline-flex;
     padding: 16px 32px;    
     border-radius: 4px;
-    background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
      color: #FFF;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        font-family: Roboto, sans-serif;
-        background-color:#4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    background-color:#4D5AE5;
     margin-top: 48px;}
 .button:hover,.button:focus{
     background-color: #404BBF;}
@@ -131,11 +128,8 @@ display: flex;
 .advantages-kont{ display: flex;
     justify-content: space-evenly;
     gap: 24px;
-width: 1128px;
-height: 104px;
-margin: 156px 120px ;}
-
- .advantages{color: #9b1717;}
+    width: 1128px; 
+    margin: 156px 120px ;}
  
 .advantages-title{align-items: flex-start;
     font-size: 20px;
@@ -173,13 +167,14 @@ margin: 156px 120px ;}
     text-transform: capitalize;
     color:#2e2f42 ;
 }
-.team-cont{display: flex;
-justify-content: space-evenly;
-padding-top: 72px;
+.team-cont{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 72px;
 }
 .team-card{ background-color: #FFFFFF;
     font-style: normal;
-display: inline-flex;
+    display: inline-flex;
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
@@ -188,8 +183,8 @@ display: inline-flex;
 
 .conteiner-portfolio {
     background-color: #F4F4FD;
-flex-shrink: 0;
-padding: 156px 120px;}
+    flex-shrink: 0;
+    padding: 156px 120px;}
 .portfolio-cont {
     display: flex;
     flex-wrap: wrap;
@@ -203,10 +198,9 @@ padding: 156px 120px;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-margin-bottom: 72px;}
+    margin-bottom: 72px;}
 .portfolio-card {display: flex;
     width: 360px;
-    height: 420px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
@@ -231,17 +225,15 @@ margin-bottom: 72px;}
     color: #2e2f42;
    }
 .portfolio-text{
-        color: #434455;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
  }
 
 .footer{background-color: #2e2f42; 
-    width: 1440px;
-    height: 312px;
     flex-shrink: 0;
     padding-left: 156px;
     padding-right: 1020px;
@@ -251,7 +243,6 @@ margin-bottom: 72px;}
 .conteiner-footer{display: flex;
     flex-direction: column;
      width: 264px;
-    height: 112px;
     flex-shrink: 0;}
 .logo{display: inline-flex;
     height: 24px;
@@ -260,8 +251,6 @@ margin-bottom: 72px;}
 }
 .logo-web-footer {display: flex;
     width: 44px;
-    height: 21px;
-   
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -273,7 +262,6 @@ margin-bottom: 72px;}
 
 .logo-studio-footer {display: flex;
     width: 71px;
-    height: 21px;
     color: #f4f4fd;
     font-family: Raleway, sans-serif;
     font-size: 18px;

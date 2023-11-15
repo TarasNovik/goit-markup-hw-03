@@ -206,7 +206,8 @@ img{display: block;}
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-    background: #FFF;   
+    background: #FFF; 
+    margin-bottom: 48px;  
 }
 .portfolio-card-content{display: flex;
     padding: 32px 16px;
@@ -214,8 +215,9 @@ img{display: block;}
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;
-    border: 1px solid #F4F4FD;
-   
+   border-left: 1px solid #f4f4fd;
+   border-right: 1px solid #f4f4fd;
+   border-bottom: 1px solid #F4F4FD;
 }
 .portfolio-title-card{text-align: center;
     font-size:20px;

@@ -74,7 +74,8 @@ img{display: block;}
     color: #404BBF;}
 
 
- .address-links{display: inline-flex;
+ .address-links{
+    display: inline-flex;
     align-items: flex-start;
     gap: 40px;}
 .address-links .link {color: #434455;
@@ -91,8 +92,7 @@ img{display: block;}
 .conteiner-hero{ 
     background-color: #2E2F42;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center;   
     display: flex;   
     padding-left: 472px;
     padding-top: 188px;
@@ -154,8 +154,7 @@ img{display: block;}
     flex-shrink: 0;}
  .card-content{display: flex;
     width: 232px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;  
     align-items: center;
     gap: 8px;
     margin-bottom: 32px;}
@@ -178,7 +177,6 @@ img{display: block;}
     padding-bottom: 0px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap: 32px;}
 
 .conteiner-portfolio {
@@ -211,8 +209,7 @@ img{display: block;}
 }
 .portfolio-card-content{display: flex;
     padding: 0px 16px;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;}

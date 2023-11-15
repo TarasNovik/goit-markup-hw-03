@@ -1,29 +1,29 @@
 body{ width: 1440px;
     background-color: #fff;
-   font-family: Roboto,sans-serif;
-   color: #434455;
-   font-style: normal;
-box-sizing: border-box;
-margin: 0 auto;}
+    font-family: Roboto,sans-serif;
+    color: #434455;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 0 auto;}
 
 section{margin-top: 0;
-margin-bottom: 0px;}
+    margin-bottom: 0px;}
 
 ul{list-style-type: none;}
 
 a{text-decoration: none;}
 
 h1,h2,h3,p{margin-top: 0;
-margin-bottom: 0;}
+    margin-bottom: 0;}
 
 ol,ul{margin-top: 0;
-margin-bottom: 0;
-margin-left: 0;}
+    margin-bottom: 0;
+    margin-left: 0;}
 
 img{display: block;}
 
 .conteiner{
-     max-width:1440px;
+    max-width:1440px;
     padding-left: 0;
     padding-right: 0;
     margin-left: 0;
@@ -32,14 +32,14 @@ img{display: block;}
 /* header */
 .conteiner-header{
     border-bottom: 1px solid  #E7E9FC;
-        background: #FFF;
+    background: #FFF;
     width: 1440px; 
     flex-shrink: 0;
     display: inline-flex;
     justify-content: space-between;
     padding: 24PX 156px;
+    margin-bottom: 0;}
 
-margin-bottom: 0;}
 .logo-web {
     color:#4d5ae5;
     font-family: Raleway,sans-serif;
@@ -51,12 +51,12 @@ margin-bottom: 0;}
 }
 
 .logo-studio {color: #2E2F42;
-        font-family: Raleway,sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        line-height: 1.17;}
+    font-family: Raleway,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;}
 
 .social-links .link {
     font-size: 16px;
@@ -67,14 +67,14 @@ margin-bottom: 0;}
     color: #2e2f42;
 }
 .social-links{display: inline-flex;
-align-items: flex-start;
-gap: 40px;}
+    align-items: flex-start;
+    gap: 40px;}
 .social-links .link:hover,
 .social-links .link:focus {
     color: #404BBF;}
 
 
- .address-box{display: inline-flex;
+ .address-links{display: inline-flex;
     align-items: flex-start;
     gap: 40px;}
 .address-links .link {color: #434455;

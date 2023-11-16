@@ -35,14 +35,16 @@ img{
 .header{
     border-bottom: 1px solid  #E7E9FC;
 }
-.header-conteiner{display: flex;}
+.header-conteiner{display: flex;
+align-items: center;
+justify-content: space-between;
+}
 .nav{gap: 40px;
     align-items: center;
     display: flex;
     }
 
 .logo-web{
-   
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -68,7 +70,6 @@ img{
     color: #2e2f42;
 }
 .social-links{
-    padding: 24px 0;
     display: flex;
     align-items: flex-start;
     column-gap: 40px;}

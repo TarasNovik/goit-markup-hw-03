@@ -227,6 +227,7 @@ img{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
     
 }
 .portfolio-title{text-align: center;
@@ -318,5 +319,5 @@ img{
     letter-spacing: 0.02em;
     font-size: 16px;
     font-weight: 400;
-    max-width: 264px
+    max-width: 264px;
    }

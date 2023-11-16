@@ -294,10 +294,7 @@ img{
      width: 264px;
     flex-shrink: 0;}
 .logo{
-    display: inline-block;
-    height: 24px;
-    flex-shrink: 0;
-    margin-bottom: 16px;
+    
 }
 .logo-web-footer{
     display: inline-block;

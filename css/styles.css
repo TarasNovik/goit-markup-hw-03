@@ -274,22 +274,24 @@ img{
     text-align: center;
  }
 /* footer */
-.footer{
+.footer{ 
+    display: flex;
+    flex-direction: column;
+    
     background-color: #2e2f42; 
     padding: 100px 0;
 }
 .conteiner-footer{
-    display: flex;
-    flex-direction: column;
-     width: 264px;
-    flex-shrink: 0;}
+   
+   
+    }
 
     
 
 .logo-web-footer{
     display: inline-block;
     margin-bottom: 16px;
-    width: 44px;
+ 
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -300,7 +302,7 @@ img{
 }
 
 .logo-studio-footer{
-    width: 71px;
+
     color: #f4f4fd;
     font-family: Raleway, sans-serif;
     font-size: 18px;

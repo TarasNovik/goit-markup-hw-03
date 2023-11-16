@@ -206,8 +206,7 @@ padding: 188px 0;
 .team-cont{display: flex;
     justify-content: center;
     gap: 24px;
-   
-}
+   }
 .team-card{ background-color: #FFFFFF;
     font-style: normal;
     display: inline-flex;
@@ -219,7 +218,7 @@ padding: 188px 0;
     }
 
 
-.portfolio-section{display: block;
+.portfolio-section{
 background-color: #FFF;}
    
 .portfolio-cont{
@@ -228,14 +227,16 @@ background-color: #FFF;}
     column-gap: 24px;
     row-gap: 48px;    
 }
-.portfolio-title{text-align: center;
+.portfolio-title{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;}
+    margin-bottom: 72px;
+    margin-left: auto;
+margin-right: auto;}
 .portfolio-card{
     display: flex;
     width: calc((100% - 48px) / 3);

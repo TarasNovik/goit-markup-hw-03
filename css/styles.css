@@ -28,7 +28,8 @@ img{
 }
 
 .conteiner{ 
-    
+    display: flex;
+    width: 1158px;
    }
 /* header */
 .conteiner-header{

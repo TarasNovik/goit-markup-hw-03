@@ -27,6 +27,7 @@ img{
 
 .conteiner{ 
     display: flex;
+    flex-direction: column;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
@@ -241,7 +242,7 @@ background-color: #FFF;}
     align-items: flex-start;
     flex-shrink: 0;
     background: #FFF; 
-    margin-bottom: 48px;     
+      
 }
 .portfolio-card-content{
     max-width: 360px;

@@ -25,10 +25,10 @@ img{display: block;
 margin-left: 0;
     margin-right: 0;}
 
-.conteiner{ width: 1158px;
+.conteiner{ 
     padding-left: 0;
     padding-right: 0;
-   margin: 0auto;
+    margin: 0auto;
 
    }
 /* header */
@@ -42,7 +42,9 @@ margin-left: 0;
     padding: 24PX 156px;
     margin-bottom: 0;
     border-bottom: 1px solid #e7e9fc;}
-
+.nav{display: flex;
+width: 1158px;}
+.logo-header{margin-right: 76px}
 .logo-web {
     color:#4d5ae5;
     font-family: Raleway,sans-serif;
@@ -134,7 +136,7 @@ margin-left: 0;
     margin-top: 48px;}
 .button:hover,.button:focus{
     background-color: #404BBF;}
-.advantages{ display: none;}
+.visibility-hidden{visibility: hidden;}
 .advantages-kont{ display: flex;
     justify-content: space-evenly;
     gap: 24px;

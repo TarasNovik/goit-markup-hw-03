@@ -73,20 +73,21 @@ width: 1158px;}
     color: #404BBF;}
 
 
- .address-links{
-    display: inline-flex;
+ .address-links{display: flex;
+   
     align-items: flex-start;
     gap: 40px;}
-.address-links .link {color: #434455;
+.link {color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
+    padding: 24px 0;
 }
 
-.address-links .link:hover, 
-.address-links .link:focus{color: #404BBF;}
+.link:hover, 
+.link:focus{color: #404BBF;}
 .section{
     padding-top: 120px;
     padding-bottom: 120px;}

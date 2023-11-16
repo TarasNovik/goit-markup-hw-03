@@ -51,7 +51,19 @@ img{
 .logo-header{
     margin-right: 76px;
     display: flex;}
-    
+.logo-web-footer {
+    margin-bottom: 16px;
+    width: 44px;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.17;
+    margin-right: 76px;
+        display: flex;
+}
 
 .logo-studio{
     color: #2E2F42;

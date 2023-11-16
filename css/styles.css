@@ -135,7 +135,7 @@ width: 1158px;}
     margin-top: 48px;}
 .button:hover,.button:focus{
     background-color: #404BBF;}
-.visibility-hidden{visibility: hidden;}
+.visually-hidden{visibility: hidden;}
 .advantages-kont{ display: flex;
     justify-content: space-evenly;
     gap: 24px;
@@ -150,6 +150,7 @@ width: 1158px;}
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .advantages-text{color: #434455;
     font-size: 16px;

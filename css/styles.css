@@ -43,16 +43,9 @@ margin-left: 0;
     border-bottom: 1px solid #e7e9fc;}
 .nav{display: flex;
 width: 1158px;}
-.logo-header{margin-right: 76px}
-.logo-web {
-    color:#4d5ae5;
-    font-family: Raleway,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    line-height: 1.17;
-}
+.logo-header{margin-right: 76px;
+    display: flex;}
+    
 
 .logo-studio {color: #2E2F42;
     font-family: Raleway,sans-serif;

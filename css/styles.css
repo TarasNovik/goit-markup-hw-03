@@ -207,6 +207,8 @@ width: 1158px;}
 .portfolio-cont {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
     gap: 18px;
     justify-content: space-evenly;
 }
@@ -219,7 +221,7 @@ width: 1158px;}
     color: #2e2f42;
     margin-bottom: 72px;}
 .portfolio-card {display: flex;
-    width: 360px;
+    width: calc((100% - 48px) / 3);
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;

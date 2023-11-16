@@ -39,9 +39,7 @@ img{
     align-items: center;
     display: flex;
     }
-.logo-header{
-    margin-right: 76px;
-    display: flex;}
+
 .logo-web{
     margin-bottom: 16px;
     width: 44px;
@@ -53,7 +51,7 @@ img{
     text-transform: uppercase;
     line-height: 1.17;
     margin-right: 76px;
-        display: flex;
+    display: flex;
 }
 
 .logo-studio{

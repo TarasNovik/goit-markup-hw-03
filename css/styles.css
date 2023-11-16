@@ -21,8 +21,7 @@ ol,ul{margin-top: 0;
 padding-inline-start: 0;}
 
 img{display: block;
-margin-left: 0;
-    margin-right: 0;}
+}
 
 .conteiner{ max-width: 1158px;
     padding-left: 0;

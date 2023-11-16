@@ -152,7 +152,6 @@ padding: 188px 0;
     display: flex;
     justify-content: space-evenly;
     gap: 24px;
-    width: 1148;
    }
  .advantages-kont-link{
     width: calc((100% - 72px) / 4);

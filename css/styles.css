@@ -277,21 +277,14 @@ img{
 .footer{ 
     display: flex;
     flex-direction: column;
-    
     background-color: #2e2f42; 
     padding: 100px 0;
 }
-.conteiner-footer{
-   
-   
-    }
-
-    
-
+.footer-conteiner{display: block;
+ }
 .logo-web-footer{
     display: inline-block;
     margin-bottom: 16px;
- 
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -302,7 +295,6 @@ img{
 }
 
 .logo-studio-footer{
-
     color: #f4f4fd;
     font-family: Raleway, sans-serif;
     font-size: 18px;

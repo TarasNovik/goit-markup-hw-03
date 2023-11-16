@@ -29,12 +29,9 @@ img{
 
 .conteiner{ 
     max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
     display: flex;
     margin: 0 auto;
+    padding: 0 15px
    }
 /* header */
 .conteiner-header{
@@ -48,8 +45,9 @@ img{
     margin-bottom: 0;
     border-bottom: 1px solid #e7e9fc;}
 .nav{
+    align-items: center;
     display: flex;
-    width: 1158px;}
+    }
 .logo-header{
     margin-right: 76px;
     display: flex;}

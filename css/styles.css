@@ -36,14 +36,13 @@ img{
     border-bottom: 1px solid  #E7E9FC;
 }
 .header-conteiner{display: flex;}
-.nav{
+.nav{gap: 40px;
     align-items: center;
     display: flex;
     }
 
 .logo-web{
-    margin-bottom: 16px;
-    width: 44px;
+   
     color: #4d5ae5;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -51,18 +50,14 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
-    margin-right: 76px;
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-studio{
     color: #2E2F42;
-    font-family: Raleway,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    line-height: 1.17;}
+    }
 
 .social-links .link{
     font-size: 16px;
@@ -84,8 +79,7 @@ img{
 
  .address-links{
     display: flex;
-   
-    gap: 40px;}
+   gap: 40px;}
 .link{
     color: #434455;
     font-size: 16px;

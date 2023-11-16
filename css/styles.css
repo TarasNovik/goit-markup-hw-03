@@ -28,8 +28,10 @@ img{display: block;
     padding-right: 0;
     margin-left: 0;
    margin-right: 0;
+   display: flex;
    }
 /* header */
+.head-div{}
 .conteiner-header{
     border-bottom: 1px solid  #E7E9FC;
     background: #FFF;

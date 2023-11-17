@@ -239,14 +239,10 @@ background-color: #FFF;}
             row-gap: 48px;
         }
 .portfolio-card{
-
     width: calc((100% - 48px) / 3);
     padding-bottom: 0px;
-    
-    
     flex-shrink: 0;
-    background: #FFF; 
-      
+    background: #FFF;       
 }
 .portfolio-card-content{
     max-width: 360px;

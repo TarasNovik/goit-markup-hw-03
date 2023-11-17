@@ -74,7 +74,7 @@ justify-content: space-between;
 .social-links{
     display: flex;
     align-items: flex-start;
-    column-gap: 40px;}
+    gap: 40px;}
 .social-links .link:hover,
 .social-links .link:focus{
     color: #404BBF;}

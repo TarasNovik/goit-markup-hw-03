@@ -149,6 +149,8 @@ padding: 188px 0;
         overflow: hidden;
         border: 0;
         clip: rect(0 0 0 0);
+        clip-path: inset(100%);
+        white-space: nowrap;
     }
 .advantages-kont{ padding-left: 0;
     display: flex;

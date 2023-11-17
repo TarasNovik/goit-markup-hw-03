@@ -71,14 +71,15 @@ justify-content: space-between;
     font-style: normal;
     color: #2e2f42;
 }
-.social-links{
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;}
+
 .social-links .link:hover,
 .social-links .link:focus{
     color: #404BBF;}
-
+.social-links{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
 
  .address-links{
     display: flex;

@@ -208,7 +208,7 @@ padding: 188px 0;
     margin-bottom: 72px;
 }
 .team-cont{display: flex;
-    justify-content: center;
+   padding-left: 0; 
     gap: 24px;
    }
 .team-card{ background-color: #FFFFFF;
@@ -234,7 +234,7 @@ background-color: #FFF;}
     color: #2e2f42;
     margin-bottom: 72px;
     }
- .portfolio-cont {
+ .portfolio-cont { padding-left: 0;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
